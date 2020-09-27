@@ -131,9 +131,9 @@
     <!-- Skills -->
     <section id="skills" class="section">
       <div class="section__container">
-        <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
-        <p>
+        <h1 style="color: white">Skills</h1>
+        <h2 style="color: white">Skills & Attributes</h2>
+        <p style="color: rgba(245, 245, 245, 0.822)">
           Experience with all phases of the software life-cycle. Passion for
           learning new technologies. Capable of working within a team
           environment and independently. Ability to plan and time schedule, work
@@ -215,17 +215,14 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn active">
-            All <span class="category__count">8</span>
+          <button class="category__btn active" data-filter="*">
+            All <span class="category__count">2</span>
           </button>
-          <button class="category__btn">
-            Front-end <span class="category__count">3</span>
+          <button class="category__btn" data-filter="front-end">
+            Front-end <span class="category__count">1</span>
           </button>
-          <button class="category__btn">
-            VCS <span class="category__count">3</span>
-          </button>
-          <button class="category__btn">
-            Back-end <span class="category__count">2</span>
+          <button class="category__btn" data-filter="back-end">
+            Back-end <span class="category__count">1</span>
           </button>
         </div>
         <div class="work__projects">
@@ -233,6 +230,7 @@
             href="https://github.com/himsch/portfolio"
             class="project"
             target="blank"
+            data-type="front-end"
           >
             <img
               src="imgs/projects/work1-portfolio.PNG"
@@ -248,6 +246,7 @@
             href="https://github.com/himsch/hermes_project"
             class="project"
             target="blank"
+            data-type="back-end"
           >
             <img
               class="project__img"
