@@ -18,17 +18,46 @@
   --font-medium: 28px;
   --font-reqular: 18px;
   --font-small: 16px;
-  --font micro: 14px;
-  
-  /* font weigth */
-  --weigth-bold: 700;
-  --weigth-semi-bold: 600;
-  --weigth-regular: 400;
-  
+  --font-micro: 14px;
+
+  /* font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
   /* Size */
 }
 
 /* Universal tags */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Typograghy */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-balck);
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-reqular);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-balck);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-reqular);
+  font-weight: var(--font-reqular);
+  color: colo var(--color-balck);
+  margin: 8px 0;
+}
+
+p {
+  font-size: font var(--font-reqular);
+  font-weight: var(--font-reqular);
+  color: var(--color-black);
+  margin: 4px 0;
 }
