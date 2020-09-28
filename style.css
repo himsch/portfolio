@@ -462,6 +462,7 @@ h2 {
 .testimonial__speech-bubble {
   padding: 18px;
   background-color: var(--color-white);
+  font-weight: var(--weight-semi-bold);
   border-radius: var(--size-border-radius);
 }
 
